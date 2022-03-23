@@ -2,9 +2,6 @@
   <artifact type="jar" name="ASG_QuanLiSinhVien:jar">
     <output-path>$PROJECT_DIR$/resource/dist</output-path>
     <root id="archive" name="ASG_QuanLiSinhVien.jar">
-      <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
-      </element>
       <element id="module-output" name="ASG_QuanLiSinhVien" />
       <element id="extracted-dir" path="D:/JSBC Driver/mssql-jdbc-10.2.0.jre17.jar" path-in-jar="/" />
     </root>
