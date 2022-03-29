@@ -7,7 +7,10 @@ import BUS._ShareData;
 import DAO.UserDAO;
 import DTO.UserDTO;
 
+import javax.print.Doc;
 import javax.swing.*;
+import javax.swing.event.DocumentEvent;
+import javax.swing.event.DocumentListener;
 
 public class LoginDialogGUI extends javax.swing.JDialog {
 
@@ -54,12 +57,29 @@ public class LoginDialogGUI extends javax.swing.JDialog {
         lbPassword.setText("Mật khẩu:");
 
         txtAccount.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        txtAccount.getDocument().addDocumentListener(new DocumentListener() {
+            @Override
+            public void insertUpdate(DocumentEvent e) {
+                txtAccountChangeUpdate(e);
+            }
+
+            @Override
+            public void removeUpdate(DocumentEvent e) {
+                txtAccountChangeUpdate(e);
+            }
+
+            @Override
+            public void changedUpdate(DocumentEvent e) {
+                txtAccountChangeUpdate(e);
+            }
+        });
 
         txtPassword.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
 
         btnLogin.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         btnLogin.setIcon(new javax.swing.ImageIcon("resource\\iconSys\\Login-icon-16.png")); // NOI18N
         btnLogin.setText("Đăng nhập");
+        btnLogin.setEnabled(false); // by defalut
         btnLogin.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnLoginActionPerformed(evt);
@@ -178,6 +198,10 @@ public class LoginDialogGUI extends javax.swing.JDialog {
 
     private void btnExitActionPerformed(java.awt.event.ActionEvent evt) {
         System.exit(0);
+    }
+
+    private void txtAccountChangeUpdate(DocumentEvent e) {
+        btnLogin.setEnabled(!txtAccount.getText().isEmpty());
     }
 
     // Variables declaration - do not modify
