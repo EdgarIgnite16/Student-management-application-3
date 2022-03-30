@@ -3,7 +3,8 @@ Student management application using JavaSwing (Better Version)
 
 ## Setup
 <p>Bước 1: Khởi tạo tài khoản login trên SQL server 
-(project dùng tài khoảng login mặc định là tk="sa" mk="12345") nếu đã có tài khoản như trên rồi thì có thể bỏ qua bước này
+(project dùng tài khoảng login mặc định là tk="sa" mk="12345") 
+<br>Nếu đã có tài khoản như trên rồi thì có thể bỏ qua bước này
 <br>Hướng dẫn chi tiết tại <a href="https://www.engisv.info/?p=4982">https://www.engisv.info/?p=4982</a>
 </p>
 
