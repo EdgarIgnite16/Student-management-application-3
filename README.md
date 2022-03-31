@@ -8,7 +8,7 @@ Student management application using JavaSwing (Better Version)
 <br>Hướng dẫn chi tiết tại <a href="https://www.engisv.info/?p=4982">https://www.engisv.info/?p=4982</a>
 </p>
 
-<p><strong>Bước 2:</strong> Truy cập resource/sql Server. Ở đây ta có 2 cách tạo database</p>
+<p><strong>Bước 2:</strong> Truy cập resource/sql Server và tạo database. Ở đây ta có 2 cách tạo database</p>
 
 - Cách 1: Attach 2 file mdf vào trong thư mục chứa các db của SQL server (đây là dir mặc định trong máy của tôi)
 C:\Program Files\Microsoft SQL Server\MSSQL15.SQLEXPRESS\MSSQL\DATA
