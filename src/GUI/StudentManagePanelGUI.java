@@ -349,6 +349,7 @@ public class StudentManagePanelGUI extends javax.swing.JPanel {
     }// </editor-fold>
 
     private void btnSetAvatarActionPerformed(java.awt.event.ActionEvent evt) {
+        // config thao tác chọn file
         JFileChooser fileChooser = new JFileChooser();
         fileChooser.setFileFilter(new FileFilter() {
             @Override
@@ -368,14 +369,15 @@ public class StudentManagePanelGUI extends javax.swing.JPanel {
             }
         });
 
+        // nếu đã chọn file xong
         if(fileChooser.showOpenDialog(parrentForm) == JFileChooser.APPROVE_OPTION) {
-            File file = fileChooser.getSelectedFile();
+            File file = fileChooser.getSelectedFile(); // lấy đường dẫn file đã chọn
             try {
-                ImageIcon icon = new ImageIcon(file.getPath());
-                Image img = _SaveImage.resize(icon.getImage(), 140, 140);
-                ImageIcon resizedIcon = new ImageIcon(img);
-                lbAvatar.setIcon(resizedIcon);
-                personalImage = _SaveImage.toByteArray(img, "jpg");
+                ImageIcon icon = new ImageIcon(file.getPath()); // khởi tạo imageIcon
+                Image img = _SaveImage.resize(icon.getImage(), 140, 140); // resize kích thước imageIcon
+                ImageIcon resizedIcon = new ImageIcon(img); // sau khi đã resize lại kích thước của image thì khởi tạo imageIcon 1 lần nữ
+                lbAvatar.setIcon(resizedIcon); // set lại hình ảnh và do hàm setIcon chỉ nhận vào ImageIcon nên ta mới chuyển từ Image => ImageIcon như bước trên
+                personalImage = _SaveImage.toByteArray(img, "jpg"); // chuyển image thành dạng byte và lưu nó lại vào biến personImage
             } catch (Exception ex) {
                 ex.printStackTrace();
                 _MessageDialogHelper.showErrorDialog(parrentForm, ex.getMessage(), "Error");
@@ -520,7 +522,7 @@ public class StudentManagePanelGUI extends javax.swing.JPanel {
                 txtPhoneNumber.setText(student.getPhoneNumber().trim());
 
                 if(student.getAvatar() != null) {
-                    Image img = _SaveImage.createImageFromByteArray(student.getAvatar(), "jpg");
+                    Image img = _SaveImage.createImageFromByteArray(student.getAvatar());
                     lbAvatar.setIcon(new ImageIcon(img));
                 } else {
                     this.lbAvatar.setIcon(new javax.swing.ImageIcon("resource\\iconSys\\10207-man-student-light-skin-tone-icon-64.png")); // NOI18N

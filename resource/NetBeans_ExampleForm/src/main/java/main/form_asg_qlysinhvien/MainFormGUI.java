@@ -60,7 +60,6 @@ public class MainFormGUI extends javax.swing.JFrame {
 
         plToolBar.setBorder(javax.swing.BorderFactory.createEtchedBorder());
 
-        tBar_Logout.setIcon(new javax.swing.ImageIcon("C:\\Users\\edgar\\OneDrive\\Desktop\\Workspace\\Workspace-of-Course\\_Programing Language\\Java\\Java Swing\\FPT Polytechnic\\ASG_QuanLiSinhVien\\src\\resource\\iconSys\\logout-icon-32.png")); // NOI18N
         tBar_Logout.setText("Đăng xuất");
         tBar_Logout.setFocusable(false);
         tBar_Logout.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
@@ -73,7 +72,6 @@ public class MainFormGUI extends javax.swing.JFrame {
         tBar_Main.add(tBar_Logout);
         tBar_Main.add(tBar_Separator1);
 
-        tBar_StudentManage.setIcon(new javax.swing.ImageIcon("C:\\Users\\edgar\\OneDrive\\Desktop\\Workspace\\Workspace-of-Course\\_Programing Language\\Java\\Java Swing\\FPT Polytechnic\\ASG_QuanLiSinhVien\\src\\resource\\iconSys\\10207-man-student-light-skin-tone-icon-32.png")); // NOI18N
         tBar_StudentManage.setText("Quản lí sinh viên");
         tBar_StudentManage.setFocusable(false);
         tBar_StudentManage.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
@@ -85,7 +83,6 @@ public class MainFormGUI extends javax.swing.JFrame {
         });
         tBar_Main.add(tBar_StudentManage);
 
-        tBar_ScoreManage.setIcon(new javax.swing.ImageIcon("C:\\Users\\edgar\\OneDrive\\Desktop\\Workspace\\Workspace-of-Course\\_Programing Language\\Java\\Java Swing\\FPT Polytechnic\\ASG_QuanLiSinhVien\\src\\resource\\iconSys\\gpa-icon-32.png")); // NOI18N
         tBar_ScoreManage.setText("Quản lí điểm thi");
         tBar_ScoreManage.setFocusable(false);
         tBar_ScoreManage.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
@@ -98,7 +95,6 @@ public class MainFormGUI extends javax.swing.JFrame {
         tBar_Main.add(tBar_ScoreManage);
         tBar_Main.add(tBar_Separator2);
 
-        tBar_Introdutuon.setIcon(new javax.swing.ImageIcon("C:\\Users\\edgar\\OneDrive\\Desktop\\Workspace\\Workspace-of-Course\\_Programing Language\\Java\\Java Swing\\FPT Polytechnic\\ASG_QuanLiSinhVien\\src\\resource\\iconSys\\Actions-help-about-icon-32.png")); // NOI18N
         tBar_Introdutuon.setText("Giới thiệu");
         tBar_Introdutuon.setFocusable(false);
         tBar_Introdutuon.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
@@ -171,7 +167,6 @@ public class MainFormGUI extends javax.swing.JFrame {
         mnuSystem.setText("Hệ thống");
 
         mnuSystem_Logout.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_U, java.awt.event.InputEvent.CTRL_DOWN_MASK));
-        mnuSystem_Logout.setIcon(new javax.swing.ImageIcon("C:\\Users\\edgar\\OneDrive\\Desktop\\Workspace\\Workspace-of-Course\\_Programing Language\\Java\\Java Swing\\FPT Polytechnic\\ASG_QuanLiSinhVien\\src\\resource\\iconSys\\logout-icon-16.png")); // NOI18N
         mnuSystem_Logout.setText("Đăng xuất");
         mnuSystem_Logout.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -182,7 +177,6 @@ public class MainFormGUI extends javax.swing.JFrame {
         mnuSystem.add(mnuSystem_Separator);
 
         mnuSystem_Exit.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_I, java.awt.event.InputEvent.CTRL_DOWN_MASK));
-        mnuSystem_Exit.setIcon(new javax.swing.ImageIcon("C:\\Users\\edgar\\OneDrive\\Desktop\\Workspace\\Workspace-of-Course\\_Programing Language\\Java\\Java Swing\\FPT Polytechnic\\ASG_QuanLiSinhVien\\src\\resource\\iconSys\\Button-Close-icon-16.png")); // NOI18N
         mnuSystem_Exit.setText("Thoát");
         mnuSystem_Exit.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -201,7 +195,6 @@ public class MainFormGUI extends javax.swing.JFrame {
         });
 
         mnuManage_StudentManage.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_T, java.awt.event.InputEvent.CTRL_DOWN_MASK));
-        mnuManage_StudentManage.setIcon(new javax.swing.ImageIcon("C:\\Users\\edgar\\OneDrive\\Desktop\\Workspace\\Workspace-of-Course\\_Programing Language\\Java\\Java Swing\\FPT Polytechnic\\ASG_QuanLiSinhVien\\src\\resource\\iconSys\\10207-man-student-light-skin-tone-icon-16.png")); // NOI18N
         mnuManage_StudentManage.setText("Quản lí sinh viên");
         mnuManage_StudentManage.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -212,7 +205,6 @@ public class MainFormGUI extends javax.swing.JFrame {
         mnuManage.add(mnuManage_Separator);
 
         mnuManage_ScoreManage.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_R, java.awt.event.InputEvent.CTRL_DOWN_MASK));
-        mnuManage_ScoreManage.setIcon(new javax.swing.ImageIcon("C:\\Users\\edgar\\OneDrive\\Desktop\\Workspace\\Workspace-of-Course\\_Programing Language\\Java\\Java Swing\\FPT Polytechnic\\ASG_QuanLiSinhVien\\src\\resource\\iconSys\\gpa-icon.png")); // NOI18N
         mnuManage_ScoreManage.setText("Quản lí điểm thi");
         mnuManage_ScoreManage.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -226,7 +218,6 @@ public class MainFormGUI extends javax.swing.JFrame {
         mnuHelper.setText("Trợ giúp");
 
         mnuHelper_Content.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F1, java.awt.event.InputEvent.CTRL_DOWN_MASK));
-        mnuHelper_Content.setIcon(new javax.swing.ImageIcon("C:\\Users\\edgar\\OneDrive\\Desktop\\Workspace\\Workspace-of-Course\\_Programing Language\\Java\\Java Swing\\FPT Polytechnic\\ASG_QuanLiSinhVien\\src\\resource\\iconSys\\Actions-help-about-icon-16.png")); // NOI18N
         mnuHelper_Content.setText("Nội dung");
         mnuHelper_Content.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -237,7 +228,6 @@ public class MainFormGUI extends javax.swing.JFrame {
         mnuHelper.add(mnuHelper_Separator);
 
         mnuHelper_Introduction.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F1, java.awt.event.InputEvent.CTRL_DOWN_MASK));
-        mnuHelper_Introduction.setIcon(new javax.swing.ImageIcon("C:\\Users\\edgar\\OneDrive\\Desktop\\Workspace\\Workspace-of-Course\\_Programing Language\\Java\\Java Swing\\FPT Polytechnic\\ASG_QuanLiSinhVien\\src\\resource\\iconSys\\Help-icon-16.png")); // NOI18N
         mnuHelper_Introduction.setText("Giới thiệu");
         mnuHelper_Introduction.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

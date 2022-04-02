@@ -14,9 +14,6 @@
                 <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
                   <KeyStroke key="Ctrl+U"/>
                 </Property>
-                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="C:\Users\edgar\OneDrive\Desktop\Workspace\Workspace-of-Course\_Programing Language\Java\Java Swing\FPT Polytechnic\ASG_QuanLiSinhVien\src\resource\iconSys\logout-icon-16.png"/>
-                </Property>
                 <Property name="text" type="java.lang.String" value="&#x110;&#x103;ng xu&#x1ea5;t"/>
               </Properties>
               <Events>
@@ -29,9 +26,6 @@
               <Properties>
                 <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
                   <KeyStroke key="Ctrl+I"/>
-                </Property>
-                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="C:\Users\edgar\OneDrive\Desktop\Workspace\Workspace-of-Course\_Programing Language\Java\Java Swing\FPT Polytechnic\ASG_QuanLiSinhVien\src\resource\iconSys\Button-Close-icon-16.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Tho&#xe1;t"/>
               </Properties>
@@ -54,9 +48,6 @@
                 <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
                   <KeyStroke key="Ctrl+T"/>
                 </Property>
-                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="C:\Users\edgar\OneDrive\Desktop\Workspace\Workspace-of-Course\_Programing Language\Java\Java Swing\FPT Polytechnic\ASG_QuanLiSinhVien\src\resource\iconSys\10207-man-student-light-skin-tone-icon-16.png"/>
-                </Property>
                 <Property name="text" type="java.lang.String" value="Qu&#x1ea3;n l&#xed; sinh vi&#xea;n"/>
               </Properties>
               <Events>
@@ -69,9 +60,6 @@
               <Properties>
                 <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
                   <KeyStroke key="Ctrl+R"/>
-                </Property>
-                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="C:\Users\edgar\OneDrive\Desktop\Workspace\Workspace-of-Course\_Programing Language\Java\Java Swing\FPT Polytechnic\ASG_QuanLiSinhVien\src\resource\iconSys\gpa-icon.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Qu&#x1ea3;n l&#xed; &#x111;i&#x1ec3;m thi"/>
               </Properties>
@@ -91,9 +79,6 @@
                 <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
                   <KeyStroke key="Ctrl+F1"/>
                 </Property>
-                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="C:\Users\edgar\OneDrive\Desktop\Workspace\Workspace-of-Course\_Programing Language\Java\Java Swing\FPT Polytechnic\ASG_QuanLiSinhVien\src\resource\iconSys\Actions-help-about-icon-16.png"/>
-                </Property>
                 <Property name="text" type="java.lang.String" value="N&#x1ed9;i dung"/>
               </Properties>
               <Events>
@@ -106,9 +91,6 @@
               <Properties>
                 <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
                   <KeyStroke key="Ctrl+F1"/>
-                </Property>
-                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="C:\Users\edgar\OneDrive\Desktop\Workspace\Workspace-of-Course\_Programing Language\Java\Java Swing\FPT Polytechnic\ASG_QuanLiSinhVien\src\resource\iconSys\Help-icon-16.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Gi&#x1edb;i thi&#x1ec7;u"/>
               </Properties>
@@ -206,9 +188,6 @@
           <SubComponents>
             <Component class="javax.swing.JButton" name="tBar_Logout">
               <Properties>
-                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="C:\Users\edgar\OneDrive\Desktop\Workspace\Workspace-of-Course\_Programing Language\Java\Java Swing\FPT Polytechnic\ASG_QuanLiSinhVien\src\resource\iconSys\logout-icon-32.png"/>
-                </Property>
                 <Property name="text" type="java.lang.String" value="&#x110;&#x103;ng xu&#x1ea5;t"/>
                 <Property name="focusable" type="boolean" value="false"/>
                 <Property name="horizontalTextPosition" type="int" value="0"/>
@@ -222,9 +201,6 @@
             </Component>
             <Component class="javax.swing.JButton" name="tBar_StudentManage">
               <Properties>
-                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="C:\Users\edgar\OneDrive\Desktop\Workspace\Workspace-of-Course\_Programing Language\Java\Java Swing\FPT Polytechnic\ASG_QuanLiSinhVien\src\resource\iconSys\10207-man-student-light-skin-tone-icon-32.png"/>
-                </Property>
                 <Property name="text" type="java.lang.String" value="Qu&#x1ea3;n l&#xed; sinh vi&#xea;n"/>
                 <Property name="focusable" type="boolean" value="false"/>
                 <Property name="horizontalTextPosition" type="int" value="0"/>
@@ -236,9 +212,6 @@
             </Component>
             <Component class="javax.swing.JButton" name="tBar_ScoreManage">
               <Properties>
-                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="C:\Users\edgar\OneDrive\Desktop\Workspace\Workspace-of-Course\_Programing Language\Java\Java Swing\FPT Polytechnic\ASG_QuanLiSinhVien\src\resource\iconSys\gpa-icon-32.png"/>
-                </Property>
                 <Property name="text" type="java.lang.String" value="Qu&#x1ea3;n l&#xed; &#x111;i&#x1ec3;m thi"/>
                 <Property name="focusable" type="boolean" value="false"/>
                 <Property name="horizontalTextPosition" type="int" value="0"/>
@@ -252,9 +225,6 @@
             </Component>
             <Component class="javax.swing.JButton" name="tBar_Introdutuon">
               <Properties>
-                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="C:\Users\edgar\OneDrive\Desktop\Workspace\Workspace-of-Course\_Programing Language\Java\Java Swing\FPT Polytechnic\ASG_QuanLiSinhVien\src\resource\iconSys\Actions-help-about-icon-32.png"/>
-                </Property>
                 <Property name="text" type="java.lang.String" value="Gi&#x1edb;i thi&#x1ec7;u"/>
                 <Property name="focusable" type="boolean" value="false"/>
                 <Property name="horizontalTextPosition" type="int" value="0"/>
