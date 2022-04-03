@@ -3,7 +3,7 @@
     <output-path>$PROJECT_DIR$/resource/dist</output-path>
     <root id="archive" name="ASG_QuanLiSinhVien.jar">
       <element id="module-output" name="ASG_QuanLiSinhVien" />
-      <element id="extracted-dir" path="D:/JSBC Driver/mssql-jdbc-10.2.0.jre17.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/mssql-jdbc-10.2.0.jre17.jar" path-in-jar="/" />
     </root>
   </artifact>
 </component>
