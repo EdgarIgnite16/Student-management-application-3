@@ -6,6 +6,7 @@ Student management application using JavaSwing (Better Version)
 (project dùng tài khoảng login mặc định là tk="sa" mk="12345") 
 <br>Nếu đã có tài khoản như trên rồi thì có thể bỏ qua bước này
 <br>Hướng dẫn chi tiết tại <a href="https://www.youtube.com/watch?v=dJ6c3OgIVDM">https://www.youtube.com/watch?v=dJ6c3OgIVDM</a>
+ hoặc <a href="https://drive.google.com/file/d/1M1YI1cSB3jthtPXM8A6fBg27VVEOSok-/view">https://drive.google.com/file/d/1M1YI1cSB3jthtPXM8A6fBg27VVEOSok-/view</a> 
 </p>
 
 <p><strong>Bước 2:</strong> Truy cập resource/sql Server và tạo database. Ở đây ta có 2 cách tạo database</p>
