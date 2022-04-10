@@ -2,24 +2,24 @@ package DAO;
 import java.sql.*;
 
 public class _openConnection {
-    private String hostname ;
-    private String portNumber ;
-    private String username ;
-    private String password;
-    private String dbName;
+    private final String hostname ;
+    private final String portNumber ;
+    private final String username ;
+    private final String password;
+    private final String dbName;
 
     private Connection conn;
     private Statement stm;
     private PreparedStatement pstm;
     private ResultSet rs;
 
-    public _openConnection(String databaseName) {
+    public _openConnection() {
         checkDriver();
         this.hostname = "localhost";
         this.portNumber = "1433";
         this.username = "sa";
         this.password = "12345";
-        this.dbName = databaseName;
+        this.dbName = "ASG_QlySinhVien";
         setConnection();
     }
 

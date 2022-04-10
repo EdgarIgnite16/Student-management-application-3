@@ -17,7 +17,7 @@ public class ScoreBoardDAO {
 
         // sử dụng try-with-resource
         try(
-                Connection conn = new _openConnection("ASG_QlySinhVien").getConn();
+                Connection conn = new _openConnection().getConn();
                 PreparedStatement pstm = conn.prepareStatement(sql);
         ) {
             pstm.setString(1, scoreBoard.getIdStudent());
@@ -37,7 +37,7 @@ public class ScoreBoardDAO {
 
         // sử dụng try-with-resource
         try(
-                Connection conn = new _openConnection("ASG_QlySinhVien").getConn();
+                Connection conn = new _openConnection().getConn();
                 PreparedStatement pstm = conn.prepareStatement(sql);
         ) {
             pstm.setString(1, idStudent);
@@ -54,7 +54,7 @@ public class ScoreBoardDAO {
 
         // sử dụng try-with-resource
         try(
-                Connection conn = new _openConnection("ASG_QlySinhVien").getConn();
+                Connection conn = new _openConnection().getConn();
                 PreparedStatement pstm = conn.prepareStatement(sql);
         ) {
             pstm.setString(1, scoreBoardDTO.getIdStudent());
@@ -72,7 +72,7 @@ public class ScoreBoardDAO {
     public ArrayList<ScoreBoardDTO> getData() throws Exception {
         String sql = "Select * from dbo.Scoreboard";
         try (
-                Connection conn = new _openConnection("ASG_QlySinhVien").getConn();
+                Connection conn = new _openConnection().getConn();
                 PreparedStatement pstm = conn.prepareStatement(sql);
         ) {
             try (ResultSet rs = pstm.executeQuery()) {

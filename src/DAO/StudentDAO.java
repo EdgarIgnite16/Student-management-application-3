@@ -14,7 +14,7 @@ public class StudentDAO {
 
         // sử dụng try-with-resource
         try(
-                Connection conn = new _openConnection("ASG_QlySinhVien").getConn();
+                Connection conn = new _openConnection().getConn();
                 PreparedStatement pstm = conn.prepareStatement(sql);
         ) {
             pstm.setString(1, student.getIdStudent());
@@ -38,7 +38,7 @@ public class StudentDAO {
 
         // sử dụng try-with-resource
         try(
-                Connection conn = new _openConnection("ASG_QlySinhVien").getConn();
+                Connection conn = new _openConnection().getConn();
                 PreparedStatement pstm = conn.prepareStatement(sql);
         ) {
             pstm.setString(1, idStudent);
@@ -56,7 +56,7 @@ public class StudentDAO {
 
         // sử dụng try-with-resource
         try(
-                Connection conn = new _openConnection("ASG_QlySinhVien").getConn();
+                Connection conn = new _openConnection().getConn();
                 PreparedStatement pstm = conn.prepareStatement(sql);
         ) {
             pstm.setString(8, student.getIdStudent());
@@ -78,7 +78,7 @@ public class StudentDAO {
     public ArrayList<StudentDTO> getData() throws Exception {
         String sql = "Select * from dbo.Student";
         try (
-                Connection conn = new _openConnection("ASG_QlySinhVien").getConn();
+                Connection conn = new _openConnection().getConn();
                 PreparedStatement pstm = conn.prepareStatement(sql);
                 ) {
             try (ResultSet rs = pstm.executeQuery()) {

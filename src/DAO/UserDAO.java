@@ -13,7 +13,7 @@ public class UserDAO {
     public ArrayList<UserDTO> getData() throws Exception {
         String sql = "Select * from [dbo].[User]";
         try (
-                Connection conn = new _openConnection("ASG_QlySinhVien").getConn();
+                Connection conn = new _openConnection().getConn();
                 PreparedStatement pstm = conn.prepareStatement(sql);
         ) {
             try (ResultSet rs = pstm.executeQuery()) {
