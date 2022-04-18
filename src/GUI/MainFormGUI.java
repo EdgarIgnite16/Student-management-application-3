@@ -17,7 +17,10 @@ public class MainFormGUI extends javax.swing.JFrame {
     public MainFormGUI() {
         this.initComponents();
         this.processLoginSuccessful();
+        this.loadPanel();
     }
+
+
 
     /**
      * This method is called from within the constructor to initialize the form.
@@ -275,23 +278,11 @@ public class MainFormGUI extends javax.swing.JFrame {
 
     // xử lí các button
     private void mnuManage_StudentManageActionPerformed(java.awt.event.ActionEvent evt) {
-        if(mnuStudentManagePanel == null) {
-            mnuStudentManagePanel = new StudentManagePanelGUI();
-            String path = "resource/iconSys/10207-man-student-light-skin-tone-icon-16.png";
-            tPane_Main.addTab("Quản lí sinh viên", new ImageIcon(path), mnuStudentManagePanel, "Quản lí sinh viên");
-        } else {
-            tPane_Main.setSelectedComponent(mnuStudentManagePanel);
-        }
+        tPane_Main.setSelectedComponent(mnuStudentManagePanel);
     }
 
     private void mnuManage_ScoreManageActionPerformed(java.awt.event.ActionEvent evt) {
-        if(mnuScoreManagerPanel == null) {
-            mnuScoreManagerPanel = new ScorceManagePanelGUI();
-            String path = "resource/iconSys/gpa-icon.png";
-            tPane_Main.addTab("Quản lí sinh viên", new ImageIcon(path), mnuScoreManagerPanel, "Quản lí sinh viên");
-        } else {
-            tPane_Main.setSelectedComponent(mnuScoreManagerPanel);
-        }
+        tPane_Main.setSelectedComponent(mnuScoreManagerPanel);
     }
 
     private void mnuHelper_IntroductionActionPerformed(java.awt.event.ActionEvent evt) {
@@ -329,22 +320,10 @@ public class MainFormGUI extends javax.swing.JFrame {
     }
 
     private void tBar_StudentManageActionPerformed(java.awt.event.ActionEvent evt) {
-        if(mnuStudentManagePanel == null) {
-            mnuStudentManagePanel = new StudentManagePanelGUI();
-            String path = "resource/iconSys/10207-man-student-light-skin-tone-icon-16.png";
-            tPane_Main.addTab("Quản lí sinh viên", new ImageIcon(path),
-                    mnuStudentManagePanel, "Quản lí sinh viên");
-        }
         tPane_Main.setSelectedComponent(mnuStudentManagePanel);
     }
 
     private void tBar_ScoreManageActionPerformed(java.awt.event.ActionEvent evt) {
-        if(mnuScoreManagerPanel == null) {
-            mnuScoreManagerPanel = new ScorceManagePanelGUI();
-            String path = "resource/iconSys/gpa-icon.png";
-            tPane_Main.addTab("Quản lí sinh viên", new ImageIcon(path),
-                    mnuScoreManagerPanel, "Quản lí sinh viên");
-        }
         tPane_Main.setSelectedComponent(mnuScoreManagerPanel);
     }
 
@@ -368,6 +347,20 @@ public class MainFormGUI extends javax.swing.JFrame {
             mnuManage_ScoreManage.setEnabled(true);
             mnuManage_StudentManage.setEnabled(false);
         }
+    }
+
+    private void loadPanel() {
+        mnuStudentManagePanel = new StudentManagePanelGUI();
+        String path1 = "resource/iconSys/10207-man-student-light-" +
+                "skin-tone-icon-16.png";
+        tPane_Main.addTab("Quản lí sinh viên", new ImageIcon(path1),
+                mnuStudentManagePanel, "Quản lí sinh viên");
+
+        mnuScoreManagerPanel = new ScorceManagePanelGUI();
+        String path2 = "resource/iconSys/gpa-icon.png";
+        tPane_Main.addTab("Quản lí điểm", new ImageIcon(path2),
+                mnuScoreManagerPanel, "Quản lí sinh viên");
+
     }
 
     // Variables declaration - do not modify
