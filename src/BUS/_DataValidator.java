@@ -10,6 +10,7 @@ public class _DataValidator {
         if(field.getText().equals("")) {
             sb.append(String.format("%s\n", errorMessage));
             field.setBackground(Color.red);
+            field.setForeground(Color.WHITE);
             field.requestFocus();
         } else {
             field.setBackground(Color.WHITE);
@@ -21,6 +22,7 @@ public class _DataValidator {
         if(field.getText().equals("")) {
             sb.append(String.format("%s\n", errorMessage));
             field.setBackground(Color.red);
+            field.setForeground(Color.WHITE);
             field.requestFocus();
         } else {
             field.setBackground(Color.WHITE);

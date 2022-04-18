@@ -395,6 +395,19 @@ public class StudentManagePanelGUI extends javax.swing.JPanel {
         this.grBtn_Sex.clearSelection();
         this.personalImage = null;
         this.lbAvatar.setIcon(new javax.swing.ImageIcon("resource\\iconSys\\10207-man-student-light-skin-tone-icon-64.png")); // NOI18N
+
+        // set Background
+        txtIdSinhVien.setBackground(Color.WHITE);
+        txtHoTen.setBackground(Color.WHITE);
+        txtEmail.setBackground(Color.WHITE);
+        txtAddress.setBackground(Color.WHITE);
+        txtPhoneNumber.setBackground(Color.WHITE);
+        // set Foreground
+        txtIdSinhVien.setForeground(Color.BLACK);
+        txtHoTen.setForeground(Color.BLACK);
+        txtEmail.setForeground(Color.BLACK);
+        txtAddress.setForeground(Color.BLACK);
+        txtPhoneNumber.setForeground(Color.BLACK);
     }
 
     private void btnUpdateActionPerformed(java.awt.event.ActionEvent evt) {

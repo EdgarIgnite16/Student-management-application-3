@@ -40,6 +40,7 @@ public class MainFormGUI extends javax.swing.JFrame {
         lbStatusUser = new javax.swing.JLabel();
         lbStatusUserTyper = new javax.swing.JLabel();
         tPane_Main = new javax.swing.JTabbedPane();
+        jPanel1 = new javax.swing.JPanel();
         mnuBar_Main = new javax.swing.JMenuBar();
         mnuSystem = new javax.swing.JMenu();
         mnuSystem_Logout = new javax.swing.JMenuItem();
@@ -164,6 +165,19 @@ public class MainFormGUI extends javax.swing.JFrame {
                 .addContainerGap(10, Short.MAX_VALUE))
         );
 
+        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
+        jPanel1.setLayout(jPanel1Layout);
+        jPanel1Layout.setHorizontalGroup(
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 600, Short.MAX_VALUE)
+        );
+        jPanel1Layout.setVerticalGroup(
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 555, Short.MAX_VALUE)
+        );
+
+        tPane_Main.addTab("tab1", jPanel1);
+
         mnuSystem.setText("Hệ thống");
 
         mnuSystem_Logout.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_U, java.awt.event.InputEvent.CTRL_DOWN_MASK));
@@ -244,7 +258,7 @@ public class MainFormGUI extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(tPane_Main, javax.swing.GroupLayout.DEFAULT_SIZE, 600, Short.MAX_VALUE)
+            .addComponent(tPane_Main)
             .addGroup(layout.createSequentialGroup()
                 .addComponent(plToolBar, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -258,7 +272,7 @@ public class MainFormGUI extends javax.swing.JFrame {
                     .addComponent(plStatus, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(plToolBar, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(tPane_Main, javax.swing.GroupLayout.DEFAULT_SIZE, 588, Short.MAX_VALUE)
+                .addComponent(tPane_Main)
                 .addContainerGap())
         );
 
@@ -347,6 +361,7 @@ public class MainFormGUI extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JPanel jPanel1;
     private javax.swing.JLabel lbStatusUser;
     private javax.swing.JLabel lbStatusUserTyper;
     private javax.swing.JLabel lbUser;

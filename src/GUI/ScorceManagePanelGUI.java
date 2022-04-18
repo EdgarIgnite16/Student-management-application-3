@@ -8,6 +8,7 @@ import DTO.StudentDTO;
 
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
+import java.awt.*;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 import java.util.ArrayList;
@@ -386,6 +387,19 @@ public class ScorceManagePanelGUI extends javax.swing.JPanel {
         txtLyOut.setText("");
         txtHoaOut.setText("");
         lbDiemTB.setText("---");
+
+        // set Background
+        txtIdOut.setBackground(Color.WHITE);
+        txtHotenOut.setBackground(Color.WHITE);
+        txtToanOut.setBackground(Color.WHITE);
+        txtLyOut.setBackground(Color.WHITE);
+        txtHoaOut.setBackground(Color.WHITE);
+        // set Foreground
+        txtIdOut.setForeground(Color.BLACK);
+        txtHotenOut.setForeground(Color.BLACK);
+        txtToanOut.setForeground(Color.BLACK);
+        txtLyOut.setForeground(Color.BLACK);
+        txtHoaOut.setForeground(Color.BLACK);
     }
 
     private void btnIdSinhVienActionPerformed(java.awt.event.ActionEvent evt) {
