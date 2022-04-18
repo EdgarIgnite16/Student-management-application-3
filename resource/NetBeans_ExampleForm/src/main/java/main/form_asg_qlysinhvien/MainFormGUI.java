@@ -40,7 +40,6 @@ public class MainFormGUI extends javax.swing.JFrame {
         lbStatusUser = new javax.swing.JLabel();
         lbStatusUserTyper = new javax.swing.JLabel();
         tPane_Main = new javax.swing.JTabbedPane();
-        jPanel1 = new javax.swing.JPanel();
         mnuBar_Main = new javax.swing.JMenuBar();
         mnuSystem = new javax.swing.JMenu();
         mnuSystem_Logout = new javax.swing.JMenuItem();
@@ -164,19 +163,6 @@ public class MainFormGUI extends javax.swing.JFrame {
                     .addComponent(lbStatusUserTyper))
                 .addContainerGap(10, Short.MAX_VALUE))
         );
-
-        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
-        jPanel1.setLayout(jPanel1Layout);
-        jPanel1Layout.setHorizontalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 600, Short.MAX_VALUE)
-        );
-        jPanel1Layout.setVerticalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 555, Short.MAX_VALUE)
-        );
-
-        tPane_Main.addTab("tab1", jPanel1);
 
         mnuSystem.setText("Hệ thống");
 
@@ -361,7 +347,6 @@ public class MainFormGUI extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JPanel jPanel1;
     private javax.swing.JLabel lbStatusUser;
     private javax.swing.JLabel lbStatusUserTyper;
     private javax.swing.JLabel lbUser;

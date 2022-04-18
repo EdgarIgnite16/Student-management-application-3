@@ -116,9 +116,6 @@
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Segoe UI" size="14" style="0"/>
         </Property>
-        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\edgar\OneDrive\Desktop\Workspace\Workspace-of-Course\_Programing Language\Java\Java Swing\FPT Polytechnic\ASG_QuanLiSinhVien\src\resource\iconSys\search-icon-16.png"/>
-        </Property>
         <Property name="text" type="java.lang.String" value="T&#xec;m"/>
       </Properties>
       <Events>
@@ -157,7 +154,7 @@
                   </Group>
                   <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Component id="txtHotenOut" alignment="0" pref="212" max="32767" attributes="0"/>
+                      <Component id="txtHotenOut" alignment="0" pref="226" max="32767" attributes="0"/>
                       <Component id="txtLyOut" max="32767" attributes="0"/>
                       <Component id="txtToanOut" max="32767" attributes="0"/>
                       <Component id="txtHoaOut" alignment="0" max="32767" attributes="0"/>
@@ -352,9 +349,6 @@
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Segoe UI" size="14" style="0"/>
         </Property>
-        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\edgar\OneDrive\Desktop\Workspace\Workspace-of-Course\_Programing Language\Java\Java Swing\FPT Polytechnic\ASG_QuanLiSinhVien\src\resource\iconSys\new-icon-16.png"/>
-        </Property>
         <Property name="text" type="java.lang.String" value="Nh&#x1ead;p m&#x1edb;i"/>
       </Properties>
       <Events>
@@ -365,9 +359,6 @@
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Segoe UI" size="14" style="0"/>
-        </Property>
-        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\edgar\OneDrive\Desktop\Workspace\Workspace-of-Course\_Programing Language\Java\Java Swing\FPT Polytechnic\ASG_QuanLiSinhVien\src\resource\iconSys\Actions-document-edit-icon-16.png"/>
         </Property>
         <Property name="text" type="java.lang.String" value="C&#x1ead;p nh&#x1ead;t"/>
       </Properties>
@@ -380,9 +371,6 @@
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Segoe UI" size="14" style="0"/>
         </Property>
-        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\edgar\OneDrive\Desktop\Workspace\Workspace-of-Course\_Programing Language\Java\Java Swing\FPT Polytechnic\ASG_QuanLiSinhVien\src\resource\iconSys\Save-icon.png"/>
-        </Property>
         <Property name="text" type="java.lang.String" value="L&#x1b0;u"/>
       </Properties>
       <Events>
@@ -393,9 +381,6 @@
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Segoe UI" size="14" style="0"/>
-        </Property>
-        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\edgar\OneDrive\Desktop\Workspace\Workspace-of-Course\_Programing Language\Java\Java Swing\FPT Polytechnic\ASG_QuanLiSinhVien\src\resource\iconSys\Actions-edit-delete-icon-16.png"/>
         </Property>
         <Property name="text" type="java.lang.String" value="Xo&#xe1;"/>
       </Properties>

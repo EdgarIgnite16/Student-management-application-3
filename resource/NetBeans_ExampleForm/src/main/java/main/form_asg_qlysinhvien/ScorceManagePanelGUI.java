@@ -64,7 +64,6 @@ public class ScorceManagePanelGUI extends javax.swing.JPanel {
         txtIdSinhVien.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
 
         btnIdSinhVien.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        btnIdSinhVien.setIcon(new javax.swing.ImageIcon("C:\\Users\\edgar\\OneDrive\\Desktop\\Workspace\\Workspace-of-Course\\_Programing Language\\Java\\Java Swing\\FPT Polytechnic\\ASG_QuanLiSinhVien\\src\\resource\\iconSys\\search-icon-16.png")); // NOI18N
         btnIdSinhVien.setText("Tìm");
         btnIdSinhVien.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -154,7 +153,7 @@ public class ScorceManagePanelGUI extends javax.swing.JPanel {
                             .addComponent(lbIdOut))))
                 .addGap(18, 18, 18)
                 .addGroup(tblMainLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(txtHotenOut, javax.swing.GroupLayout.DEFAULT_SIZE, 212, Short.MAX_VALUE)
+                    .addComponent(txtHotenOut, javax.swing.GroupLayout.DEFAULT_SIZE, 226, Short.MAX_VALUE)
                     .addComponent(txtLyOut)
                     .addComponent(txtToanOut)
                     .addComponent(txtHoaOut)
@@ -196,7 +195,6 @@ public class ScorceManagePanelGUI extends javax.swing.JPanel {
         );
 
         btnRefresh.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        btnRefresh.setIcon(new javax.swing.ImageIcon("C:\\Users\\edgar\\OneDrive\\Desktop\\Workspace\\Workspace-of-Course\\_Programing Language\\Java\\Java Swing\\FPT Polytechnic\\ASG_QuanLiSinhVien\\src\\resource\\iconSys\\new-icon-16.png")); // NOI18N
         btnRefresh.setText("Nhập mới");
         btnRefresh.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -205,7 +203,6 @@ public class ScorceManagePanelGUI extends javax.swing.JPanel {
         });
 
         btnUpdate.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        btnUpdate.setIcon(new javax.swing.ImageIcon("C:\\Users\\edgar\\OneDrive\\Desktop\\Workspace\\Workspace-of-Course\\_Programing Language\\Java\\Java Swing\\FPT Polytechnic\\ASG_QuanLiSinhVien\\src\\resource\\iconSys\\Actions-document-edit-icon-16.png")); // NOI18N
         btnUpdate.setText("Cập nhật");
         btnUpdate.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -214,7 +211,6 @@ public class ScorceManagePanelGUI extends javax.swing.JPanel {
         });
 
         btnSave.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        btnSave.setIcon(new javax.swing.ImageIcon("C:\\Users\\edgar\\OneDrive\\Desktop\\Workspace\\Workspace-of-Course\\_Programing Language\\Java\\Java Swing\\FPT Polytechnic\\ASG_QuanLiSinhVien\\src\\resource\\iconSys\\Save-icon.png")); // NOI18N
         btnSave.setText("Lưu");
         btnSave.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -223,7 +219,6 @@ public class ScorceManagePanelGUI extends javax.swing.JPanel {
         });
 
         btnDelete.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        btnDelete.setIcon(new javax.swing.ImageIcon("C:\\Users\\edgar\\OneDrive\\Desktop\\Workspace\\Workspace-of-Course\\_Programing Language\\Java\\Java Swing\\FPT Polytechnic\\ASG_QuanLiSinhVien\\src\\resource\\iconSys\\Actions-edit-delete-icon-16.png")); // NOI18N
         btnDelete.setText("Xoá");
         btnDelete.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
